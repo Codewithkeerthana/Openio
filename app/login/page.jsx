@@ -5,7 +5,6 @@ import { signIn, useSession } from "next-auth/react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
-import "./login.css"
 
 export default function Login() {
   const [error, setError] = useState(false)
@@ -52,20 +51,9 @@ export default function Login() {
     <>
       <main className="flex h-screen ">
         {/* Left Side */}
-        <section className=" hidden sec-l w-[90vw] md:flex justify-center items-center   ">
-          <div>
-          <p className="logocls">LOGO</p>
-          <h1 className=" font-bold text-7xl text-white ">Board.</h1><br/>
-          <div className="w-[100%] flex absolute bottom-[0] mb-[50px]">
-            <img className="social-logos smlrr" src="github-vec.png"/>
-            <img className="social-logos smlrr" src="twitter-vec.png"/>
-            <img className="social-logos" src="carbon_logo-linkedin.png"/>
-            <img className="social-logos" src="carbon_logo-discord.png"/>
-          </div>
-          </div>
+        <section className=" hidden bg-blue-500 w-[600px] md:flex justify-center items-center   ">
+          <h1 className=" font-bold text-7xl text-white ">Openin</h1>
         </section>
-        <div className="triangleWrap"><div className="triangle "></div></div>
-       
         {/* Right Side */}
         <section className=" bg-[#F5F5F5]  w-full px-5 flex flex-col justify-center   ">
           <div className=" flex-none  md:flex justify-center items-center ">
@@ -125,7 +113,7 @@ export default function Login() {
                   </Link>
                   <button
                     type="submit"
-                    className=" bg-[#4285F4] text-white font-montserrat font-bold text-center py-[10px] w-full rounded-[10px] hover:bg-[#286DE0]  "
+                    className=" bg-blue-500 text-white font-montserrat font-bold text-center py-[10px] w-full rounded-[10px] hover:bg-black/80  "
                   >
                     Sign In
                   </button>
@@ -147,3 +135,6 @@ export default function Login() {
     </>
   )
 }
+
+ 
+  
