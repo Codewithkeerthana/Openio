@@ -11,7 +11,7 @@ const Sidebar = ({ className, closeSideNavigation }) => {
       className={` ${className} bg-blue-500 text-white h-full rounded-[30px] flex flex-col justify-between items-center py-[60px] px-[50px]`}
     >
       <div className=" w-full space-y-[60px]  ">
-        <h1 className=" font-bold text-4xl text-white ">Board.</h1>
+        <h1 className=" font-bold text-4xl text-white ">Openio</h1>
         {/* Links */}
         <ul className="">
           {links.map((link) => {
