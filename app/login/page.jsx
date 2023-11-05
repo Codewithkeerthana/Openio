@@ -52,7 +52,7 @@ export default function Login() {
       <main className="flex h-screen ">
         {/* Left Side */}
         <section className=" hidden bg-blue-500 w-[600px] md:flex justify-center items-center   ">
-          <h1 className=" font-bold text-7xl text-white ">Openin</h1>
+          <h1 className=" font-bold text-7xl text-white ">Openio</h1>
         </section>
         {/* Right Side */}
         <section className=" bg-[#F5F5F5]  w-full px-5 flex flex-col justify-center   ">
